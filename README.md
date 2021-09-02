@@ -19,7 +19,7 @@ You can run your application in dev mode that enables live coding using:
 mvn quarkus:dev
 
 
-## Running application
+## Running application with Postman
 
 Run a POST on Postman with the URL: localhost:8081/kafka , with the model JSON:
 
