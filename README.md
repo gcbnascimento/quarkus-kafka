@@ -8,7 +8,7 @@ If you want to learn more about Quarkus, please visit its website: https://quark
 
 Necessary to have docker and docker compose installed on the machine!
 
-Run the command to upload the docker:
+Run the command to upload the docker in root's project:
 
 docker-compose up -d
 
