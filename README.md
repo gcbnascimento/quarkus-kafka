@@ -27,3 +27,7 @@ Run a POST on Postman with the URL: localhost:8081/kafka , with the model JSON:
     "year":1994, 
     "title":"title"
 }
+
+The message will be printed in the application console.
+
+Message will be sent and consumed by the same application. You can split the producer from the consumer if you want.
