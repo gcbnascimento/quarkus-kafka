@@ -1,0 +1,25 @@
+
+package br.gov.caixa.sidpn.api.swagger.contracts.data;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+
+/**
+ * \"Sub tipo da modalidades de crédito contratadas, conforme circular 4.015 e descrição do DOC3040 do SCR). (Vide Enum) Adiantamento a
+ * depositantes, Crédito pessoal sem consignação, Crédito pessoal com consignação, Home equity, Microcrédito produtivo orientado, Cheque
+ * especial, Conta garantida, Capital de giro com prazo de vencimento até 365 dias, capital de giro com prazo de vencimento superior a 365
+ * dias, Capital de giro com teto rotativo, Desconto de duplicatas, Desconto de cheques, Antecipação da fatura do cartão de crédito, Outros
+ * direitos creditórios descontados, outros títulos descontados, Aquisição de bens veículos automotores, Aquisição de bens de outros bens,
+ * Microcrédito, Custeio, Investimento, Industrialização, Comercialização, Financiamento habitacional SFH e Financiamento habitacional
+ * exceto SFH\"
+ */
+@Getter
+@AllArgsConstructor
+public enum ProductSubType
+{
+
+   ADIANTAMENTO_A_DEPOSITANTES("ADIANTAMENTO_A_DEPOSITANTES");
+
+   private String value;
+
+}
